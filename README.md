@@ -9,5 +9,5 @@ In this analysis, we will use cosine similarity to measure the similarity betwee
 Before applying cosine similarity, we cleaned the CNN and FOX text documents splitting the words by whitespace, selecting only alphanumeric characters, removing punctuation, tokenizing, and stemming. 
 
 
-Read Here:
+Read Here: https://beyondtheaverage.wordpress.com/2018/06/12/tv-networks-and-cosine-similarity/
 

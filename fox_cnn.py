@@ -60,6 +60,6 @@ cnn_vectorized=vectorizer.fit_transform(cnn_scroll1)
 fox_vectorized=vectorizer.fit_transform(fox_scroll1) 
 
 
-#cosine simialairty score? (actually just use this)
+#cosine simialairty score
 cosine_sim_score=cosine_similarity(fox_vectorized1,fox_vectorized1) 
 cosine_sim_score.mean() #0.102

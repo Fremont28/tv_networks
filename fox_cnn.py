@@ -26,7 +26,6 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords 
 from nltk.stem.porter import PorterStemmer
 
-
 #filter out punctuation (is.alpha()-removes all tokens that are all non-alphabetic) 
 cnn_scroll1=word_tokenize(cnn_scroll1)
 #remove all tokens that are not alphabetic 
@@ -58,7 +57,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 cnn_vectorized=vectorizer.fit_transform(cnn_scroll1)
 fox_vectorized=vectorizer.fit_transform(fox_scroll1) 
-
 
 #cosine simialairty score
 cosine_sim_score=cosine_similarity(fox_vectorized1,fox_vectorized1) 
